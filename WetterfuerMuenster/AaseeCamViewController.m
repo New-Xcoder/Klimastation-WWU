@@ -45,6 +45,7 @@
     [self.web loadRequest:request];
 
 	//[NSTimer scheduledTimerWithTimeInterval:3.5 target: self selector: @selector(refresh:) userInfo: nil repeats: YES];
+	//alte Bilder können erscheinen, wenn Overschmidt Server abgeschaltet ist!!!
     
 }
 
