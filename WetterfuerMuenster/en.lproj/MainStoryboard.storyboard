@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C3006" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="jrv-EH-kw8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="jrv-EH-kw8">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -1204,122 +1204,6 @@
         <image name="archiv.png" width="30" height="30"/>
         <image name="logo-rgb-ifgi-text-en.jpg" width="406" height="145"/>
     </resources>
-    <classes>
-        <class className="AaseeCamViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/AaseeCamViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="refresh:"/>
-                <relationship kind="action" name="savePicture:"/>
-                <relationship kind="outlet" name="web" candidateClass="UIWebView"/>
-            </relationships>
-        </class>
-        <class className="BottanischCamViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/BottanischCamViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="refresh:"/>
-                <relationship kind="action" name="savePicture:"/>
-                <relationship kind="outlet" name="web" candidateClass="UIWebView"/>
-            </relationships>
-        </class>
-        <class className="CreditsViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CreditsViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="closeView:"/>
-                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
-            </relationships>
-        </class>
-        <class className="DayViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DayViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="showGrafik:"/>
-                <relationship kind="outlet" name="luftdruck" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="luftfeuchtigkeit" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="maxTemperaturLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="maxwind" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="minTemperaturLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="niederschlag" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="sichtweite" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="temperaturLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="windgeschwindigkeit" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="windrichtung" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="KlimaCamViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/KlimaCamViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="refresh:"/>
-                <relationship kind="action" name="savePicture:"/>
-                <relationship kind="outlet" name="web" candidateClass="UIWebView"/>
-            </relationships>
-        </class>
-        <class className="LiveViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/LiveViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="refresh:"/>
-                <relationship kind="outlet" name="codeLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="tempLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="LuftdruckController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/LuftdruckController.h"/>
-            <relationships>
-                <relationship kind="action" name="fiveDays:"/>
-                <relationship kind="action" name="twentyDays:"/>
-                <relationship kind="outlet" name="web" candidateClass="UIWebView"/>
-            </relationships>
-        </class>
-        <class className="LuftfeuchtigkeitController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/LuftfeuchtigkeitController.h"/>
-            <relationships>
-                <relationship kind="action" name="fiveDays:"/>
-                <relationship kind="action" name="twentyDays:"/>
-                <relationship kind="outlet" name="web" candidateClass="UIWebView"/>
-            </relationships>
-        </class>
-        <class className="MonthViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MonthViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
-            </relationships>
-        </class>
-        <class className="NavViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NavViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
-            </relationships>
-        </class>
-        <class className="SelectCamViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SelectCamViewController.h"/>
-        </class>
-        <class className="SelectController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SelectController.h"/>
-        </class>
-        <class className="TableViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TableViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
-            </relationships>
-        </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="fiveDays:"/>
-                <relationship kind="action" name="twentyDays:"/>
-                <relationship kind="outlet" name="web" candidateClass="UIWebView"/>
-            </relationships>
-        </class>
-        <class className="WSGraphViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/WSGraphViewController.h"/>
-        </class>
-        <class className="WindgeschwindigkeitController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/WindgeschwindigkeitController.h"/>
-            <relationships>
-                <relationship kind="action" name="fiveDays:"/>
-                <relationship kind="action" name="twentyDays:"/>
-                <relationship kind="outlet" name="web" candidateClass="UIWebView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
